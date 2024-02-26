@@ -37,7 +37,7 @@ const Body = () => {
           Top Rated Restaurants
         </button>
       </div>
-
+ 
       <div className="res-container">
         {listOfRestaurant.map((restaurant) => (
           <RestaurantCard key={restaurant.data.id} resData={restaurant} />
